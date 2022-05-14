@@ -1,0 +1,25 @@
+.section__input {
+  margin-bottom: var(--f-size-7);
+  font-size: var(--f-size-6);
+  font-family: var(--space);
+  color: var(--very-dark-cyan);
+  width: 100%;
+  outline-color: var(--strong-cyan);
+  padding: var(--f-size-12);
+  padding-right: var(--f-size-3);
+  background-color: var(--very-light-grayish-cyan);
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+  background-position: left;
+  background-position-x: var(--f-size-3);
+  background-repeat: no-repeat;
+}
+
+.section__input--dolar {
+  background-image: url(../../images/icon-dollar.svg);
+}
+
+.section__input--person {
+  background-image: url(../../images/icon-person.svg);
+}

@@ -1,0 +1,5 @@
+.info__title {
+  font-size: var(--f-size-3);
+  color: var(--very-light-grayish-cyan);
+  margin-bottom: var(--f-size-12);
+}

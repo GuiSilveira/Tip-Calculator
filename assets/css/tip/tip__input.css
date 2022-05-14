@@ -1,0 +1,20 @@
+.tip__input {
+  background-color: var(--very-light-grayish-cyan);
+  color: var(--grayish-cyan);
+  text-align: right;
+  padding: var(--f-size-12);
+  padding-right: var(--f-size-4);
+  outline-color: var(--strong-cyan);
+  margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-size: var(--f-size-6);
+  font-family: var(--space);
+}
+
+@media (min-width: 1440px) {
+  .tip__input {
+    width: 30%;
+  }
+}

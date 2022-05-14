@@ -1,0 +1,9 @@
+.title {
+  color: var(--very-dark-cyan);
+  font-size: var(--f-size-6);
+  font-family: var(--space);
+  letter-spacing: var(--f-size-2);
+  margin: var(--f-size-7) 0;
+  text-align: center;
+  text-transform: uppercase;
+}

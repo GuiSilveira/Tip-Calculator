@@ -1,0 +1,9 @@
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info:first-of-type {
+  margin-bottom: var(--f-size-5);
+}

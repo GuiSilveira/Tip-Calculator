@@ -1,0 +1,23 @@
+.result__reset {
+  padding: var(--f-size-1);
+  font-size: var(--f-size-5);
+  margin-top: var(--f-size-3);
+  background-color: var(--strong-cyan);
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-family: var(--space);
+  text-transform: uppercase;
+  color: var(--very-dark-cyan);
+  width: 100%;
+}
+
+.result__reset:hover {
+  background-color: var(--very-light-grayish-cyan);
+}
+
+@media (min-width: 1440px) {
+  .result__reset {
+    margin-top: 40%;
+  }
+}

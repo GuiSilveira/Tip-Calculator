@@ -1,0 +1,11 @@
+.result {
+  border-radius: 10px;
+  padding: var(--f-size-5);
+  background-color: var(--very-dark-cyan);
+}
+
+@media (min-width: 1440px) {
+  .result {
+    width: 50%;
+  }
+}

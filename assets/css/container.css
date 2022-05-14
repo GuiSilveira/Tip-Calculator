@@ -1,0 +1,14 @@
+.container {
+  background-color: var(--white);
+  border-radius: 25px;
+  padding: var(--f-size-7) var(--f-size-6);
+}
+
+@media (min-width: 1440px) {
+  .container {
+    display: flex;
+    gap: 5%;
+    max-width: calc(100vw / 2);
+    max-height: calc(100vh / 2);
+  }
+}

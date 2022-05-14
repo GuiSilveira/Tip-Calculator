@@ -1,0 +1,12 @@
+.tip__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--f-size-2);
+}
+
+@media (min-width: 1440px) {
+  .tip__grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/title.css" />
+    <link rel="stylesheet" href="./assets/css/container.css" />
+    <link rel="stylesheet" href="./assets/css/inputs.css" />
+    <link rel="stylesheet" href="./assets/css/section/section__input.css" />
+    <link rel="stylesheet" href="./assets/css/section/section__title.css" />
+    <link rel="stylesheet" href="./assets/css/tip/tip.css" />
+    <link rel="stylesheet" href="./assets/css/tip/tip__grid.css" />
+    <link rel="stylesheet" href="./assets/css/tip/tip__title.css" />
+    <link rel="stylesheet" href="./assets/css/tip/tip__buttons.css" />
+    <link rel="stylesheet" href="./assets/css/tip/tip__input.css" />
+    <link rel="stylesheet" href="./assets/css/result/result.css" />
+    <link rel="stylesheet" href="./assets/css/result/result__show.css" />
+    <link rel="stylesheet" href="./assets/css/result/result__reset.css" />
+    <link rel="stylesheet" href="./assets/css/info/info.css" />
+    <link rel="stylesheet" href="./assets/css/info/info__title.css" />
+    <link rel="stylesheet" href="./assets/css/info/info__subtitle.css" />
+    <link rel="stylesheet" href="./assets/css/info/info__show.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">Spli<br />tter</h1>
+    <div class="container">
+      <div class="inputs">
+        <div class="section">
+          <p class="section__title">Bill</p>
+          <input
+            type="number"
+            class="section__input section__input--dolar"
+            placeholder="0"
+          />
+        </div>
+        <div class="tip">
+          <p class="section__title tip__title">Select Tip %</p>
+          <div class="tip__grid">
+            <button type="button" class="tip__buttons">5%</button>
+            <button type="button" class="tip__buttons">10%</button>
+            <button type="button" class="tip__buttons">15%</button>
+            <button type="button" class="tip__buttons">25%</button>
+            <button type="button" class="tip__buttons">50%</button>
+            <input type="number" class="tip__input" placeholder="Custom" />
+          </div>
+        </div>
+        <div class="input">
+          <p class="section__title">Number of People</p>
+          <input
+            type="number"
+            class="section__input section__input--person"
+            placeholder="0"
+          />
+        </div>
+      </div>
+      <div class="result">
+        <div class="result__show">
+          <div class="info">
+            <div class="info__text">
+              <p class="info__title">Tip Amount</p>
+              <p class="info__subtitle">/ person</p>
+            </div>
+            <p class="info__show tip-amount">$0.00</p>
+          </div>
+
+          <div class="info">
+            <div>
+              <p class="info__title">Total</p>
+              <p class="info__subtitle">/ person</p>
+            </div>
+            <p class="info__show total">$0.00</p>
+          </div>
+        </div>
+
+        <button type="button" class="result__reset">Reset</button>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/GuiSilveira/" target="_blank"
+        >Guilherme Silveira</a
+      >.
+    </div>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

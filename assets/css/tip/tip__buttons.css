@@ -1,0 +1,22 @@
+.tip__buttons {
+  background-color: var(--very-dark-cyan);
+  border: none;
+  border-radius: 5px;
+  color: var(--white);
+  font-family: var(--space);
+  font-size: var(--f-size-6);
+  margin: 0 auto;
+  padding: var(--f-size-12);
+  width: 100%;
+}
+
+.tip__buttons--active {
+  color: var(--very-dark-cyan);
+  background-color: var(--strong-cyan);
+}
+
+@media (min-width: 1440px) {
+  .tip__buttons {
+    width: 30%;
+  }
+}
